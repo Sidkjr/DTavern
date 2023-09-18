@@ -66,8 +66,3 @@ $ npx hardhat node
 ![Screenshot from 2023-09-18 10-00-10](https://github.com/Sidkjr/DTavern/assets/40859683/fa860645-726f-4d51-b16f-ba7af5703ba0)
 ![Screenshot from 2023-09-18 10-00-22](https://github.com/Sidkjr/DTavern/assets/40859683/630293fe-f47c-4936-80ca-7e884d405c82)
 
-
-License
-----
-MIT
-
