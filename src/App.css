@@ -1,0 +1,134 @@
+
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .elfhover {
+    transition: .5s ease;
+    opacity: 0;
+    top: -35%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .orchover {
+    transition: .5s ease;
+    opacity: 0;
+    top: -35%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .vamphover {
+    transition: .5s ease;
+    opacity: 0;
+    top: -35%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .nordhover {
+    transition: .5s ease;
+    opacity: 0;
+    top: -35%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .elf-guild:hover .image {
+    opacity: 0.3;
+  }
+  
+  .elf-guild:hover .elfhover {
+    opacity: 1;
+  }
+
+  .orc-guild:hover .image {
+    opacity: 0.3;
+  }
+  
+  .orc-guild:hover .orchover {
+    opacity: 1;
+  }
+
+  .vamp-guild:hover .image {
+    opacity: 0.3;
+  }
+  
+  .vamp-guild:hover .vamphover {
+    opacity: 1;
+  }
+
+  .nord-guild:hover .image {
+    opacity: 0.3;
+  }
+  
+  .nord-guild:hover .nordhover {
+    opacity: 1;
+  }
+  
+  .elf-text {
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 16px 32px;
+  }
+  .orc-text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    font-weight: bold;
+    border-radius: 15px;
+  }
+  .vamp-text {
+    background-color: rgb(245, 57, 57);
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    font-weight: bold;
+    border-radius: 15px;
+  }
+  .nord-text {
+    background-color: rgb(200, 174, 24);
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    font-weight: bold;
+    border-radius: 15px;
+  }
+  .select-guild {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .elf-guild {
+    margin-right: 20px;
+  }
+  .orc-guild {
+    margin-right: 20px;
+  }
+  .vamp-guild {
+    margin-right: 20px;
+  }
+  .nord-guild {
+    margin-right: 10px;
+  }
+
+  
